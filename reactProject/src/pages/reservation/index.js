@@ -13,9 +13,9 @@ const ReservationMain = () => {
     return(
         <>
         <RezMain></RezMain>
-        {/* <RezModal></RezModal> */}
-        {/* <RezInfoModal></RezInfoModal> */}
-        <RezFinModal></RezFinModal>
+        <RezModal></RezModal>
+        <RezInfoModal></RezInfoModal>
+        {/* <RezFinModal></RezFinModal> */}
         </>
     );
 }
