@@ -5,7 +5,7 @@ const RezButton = () =>{
     const openHandeler = useCallback(()=>{
         setdialog((prev) => !prev);
         console.log(dialog);
-    }, [])
+    }, [dialog])
     return(
         <Rezbutton onClick={openHandeler}>예약하기</Rezbutton>
     )

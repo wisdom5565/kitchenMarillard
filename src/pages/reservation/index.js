@@ -14,7 +14,7 @@ const ReservationMain = () => {
         <RezMain></RezMain>
         <RezModal></RezModal>
         <RezInfoModal></RezInfoModal>
-        <RezFinModal></RezFinModal>
+        {/* <RezFinModal></RezFinModal> */}
         </>
     );
 }
