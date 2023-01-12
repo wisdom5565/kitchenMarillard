@@ -23,12 +23,12 @@ const RezContents = () => {
         <ContentsTitle>안내 및 유의사항</ContentsTitle>
         <ContentsBox>
             <TextField>
-            {/* [예약]<br/>
+             {/* [예약]<br/>따로주석(여기부터)
             캐치테이블을 통해서만 예약 가능합니다.<br/>
             매월 15일과 말일 다음달 예약이 오픈 됩니다.<br/>
             자세한 예약 일정은 위 예약 일정을 통해 확인 가능하며, 매장 상황에 따라 변동될<br/>
             수 있습니다.<br/>
-        이용에 대한 문의는 kitchen.maillard@sandboxsquare.net으로 부탁드립니다.<br/> */}
+        이용에 대한 문의는 kitchen.maillard@sandboxsquare.net으로 부탁드립니다.<br/> 따로주석(여기까지) */}
             <span>현장 웨이팅</span><br/>
             예약 외 현장 방문 가능합니다.<br/>
             매장 정문 앞 웨이팅 시스템을 통해 등록 가능합니다.<br/>
@@ -39,15 +39,16 @@ const RezContents = () => {
             저녁 웨이팅으로 이어지지 않습니다.<br/>
             </TextField>
         </ContentsBox>
-        </ContentsWrap>
+        </ContentsWrap> 
         </>
     );
     
 }
 const ContentsWrap = styled.div`
-    
+    padding-left: 20px;
+    padding-top: 40px;
     display: inline-block;
-    padding-left: 30px;
+    margin: 0 auto;
 `
 const ContentsTitle = styled.p`
     @font-face {
@@ -62,8 +63,6 @@ font-weight: 700;
 font-size: 1.7em;
 `
 const ContentsBox = styled.div`
-
-    /* display: inline-block; */
     width: 520px;
     height: 350px;
     border: 3px solid black;
